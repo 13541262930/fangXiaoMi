@@ -1,0 +1,1 @@
+<view><u-pare vue-id="1" className="uparse" content="{{conText}}" data-event-opts="{{[['^preview',[['preview']]],['^navigate',[['navigate']]]]}}" bind:preview="__e" bind:navigate="__e" bind:__l="__l"></u-pare></view>

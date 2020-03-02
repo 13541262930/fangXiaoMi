@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "小米商城",
+  "usingComponents": {
+    "card": "/components/common/card",
+    "color-tag": "/components/search/color-tag",
+    "unilist": "/components/uni-ui/uni-list-item/uni-list-item"
+  }
+}

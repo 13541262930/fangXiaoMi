@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-ui/uni-nav-bar/uni-nav-bar",
+    "price": "/components/common/price",
+    "nui-number-box": "/components/uni-ui/uni-number-box/uni-number-box",
+    "comm-prpup": "/components/common/comm-prpup",
+    "number-box": "/components/uni-ui/uni-number-box/uni-number-box",
+    "card": "/components/common/card",
+    "zmradio-group": "/components/common/radio-group",
+    "recommended": "/components/common/recommended"
+  }
+}

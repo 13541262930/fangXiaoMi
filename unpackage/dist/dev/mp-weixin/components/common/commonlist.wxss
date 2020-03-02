@@ -1,0 +1,19 @@
+
+page{
+	background-color: #F4F4F4;
+}
+.box{
+	height:100%;
+	-webkit-column-break-inside: avoid;
+	        break-inside: avoid;
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.activeHeight{
+	height: 550rpx;
+}
+.box-wrapper{
+	-webkit-column-count: 2;
+	        column-count: 2;
+}
+

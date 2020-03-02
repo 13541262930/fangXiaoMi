@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "申请售后",
+  "usingComponents": {
+    "card": "/components/common/card",
+    "zmradio-group": "/components/common/radio-group"
+  }
+}

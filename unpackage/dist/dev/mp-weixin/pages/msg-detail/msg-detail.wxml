@@ -1,0 +1,1 @@
+<view class="p-2"><view class="font-lg text-dark mb-2">{{''+detail.title+''}}</view><view class="p-2"><weixin-pare vue-id="1" content="{{context}}" data-event-opts="{{[['^preview',[['preview']]],['^navigate',[['navigate']]]]}}" bind:preview="__e" bind:navigate="__e" bind:__l="__l"></weixin-pare></view></view>

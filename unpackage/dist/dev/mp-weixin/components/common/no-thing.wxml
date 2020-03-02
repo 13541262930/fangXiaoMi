@@ -1,0 +1,1 @@
+<view class="position-relative" style="height:400rpx;"><view class="position-absolute d-flex a-center flex-column j-center top-0 left-0 right-0 bottom-0"><image style="width:250rpx;" src="{{getIcon}}" mode="widthFix"></image><view style="color:#B2B2B2;">你还没有待付款订单</view></view></view>

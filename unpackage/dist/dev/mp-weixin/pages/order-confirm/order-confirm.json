@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订单配送至",
+  "navigationBarBackgroundColor": "#FD6801",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-list-item": "/components/uni-ui/uni-list-item/uni-list-item",
+    "price": "/components/common/price",
+    "comm-prpup": "/components/common/comm-prpup",
+    "coupon": "/components/my/coupon"
+  }
+}

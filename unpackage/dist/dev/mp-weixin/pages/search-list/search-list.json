@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "小米商城",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-drawer": "/components/uni-ui/uni-drawer/uni-drawer",
+    "card": "/components/common/card",
+    "zmradio-group": "/components/common/radio-group",
+    "price": "/components/common/price"
+  }
+}

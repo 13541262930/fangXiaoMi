@@ -1,0 +1,24 @@
+<template>
+	<div class="w-100 row px-2 mb-3">
+		<div v-for="(item,index) in resdata" :key="index" class=" j-center a-center mt-3" style="width: 142px;">
+			<image  :src="item.icon" style="width: 58px;height: 58px;"></image>
+			<text class="font text-muted mt-1"> {{ item.category.name}}</text>
+		</div>
+	</div>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		},
+		props:{
+			resdata:Array,
+		}
+	}
+</script>
+
+<style src="@/common/zcm-main-nvue.css">
+</style>

@@ -1,0 +1,39 @@
+<template>
+	<div>
+		<div class="w-100">
+			<div class="p-2 border-bottom">
+				<text class="font-md text-dark font-weight">{{title}}</text>
+			</div>
+			<div @click="openDetail(resdata.id)">
+				<image :src="resdata.goods_front_image" style="height: 300px;" class="w-100"  mode=""></image>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		},
+		props:{
+			resdata:Object,
+			title:{
+				type:String,
+				default:"每日精品"
+			}
+		},
+		methods:{
+			openDetail(id){
+				uni.navigateTo({
+					url:"/pages/detail/detail?detail="+id
+				})
+			}
+		}
+	}
+</script>
+
+<style src="@/common/zcm-main-nvue.css">
+</style>

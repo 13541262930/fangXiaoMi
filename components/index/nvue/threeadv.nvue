@@ -1,0 +1,36 @@
+<template>
+	<div>
+		<div class="w-100 row">
+			<div class="col-6" v-if="resdata.length>=1">
+				<image @click="openDetail(resdata[0].id)" :src="resdata[0].goods_front_image" style="width: 373px;height: 530px;" mode=""></image>
+			</div>
+			<div class="col-6 j-sb" v-if="resdata.length>=2 && resdata.length<=3">
+				<image @click="openDetail(resdata[1].id)" :src="resdata[1].goods_front_image" style="width: 375px;height: 263.5px;" mode=""></image>
+				<image @click="openDetail(resdata[2].id)" :src="resdata[2].goods_front_image" style="width: 375px;height: 263.5px;" mode=""></image>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		},
+		props:{
+			resdata:Object,
+		},
+		methods:{
+			openDetail(id){
+				uni.navigateTo({
+					url:"/pages/detail/detail?detail="+id
+				})
+			}
+		}
+	}
+</script>
+
+<style src="@/common/zcm-main-nvue.css">
+</style>

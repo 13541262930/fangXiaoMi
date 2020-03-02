@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "recommended": "/components/common/recommended",
+    "no-thing": "/components/common/no-thing",
+    "order-list": "/components/common/order-list"
+  }
+}

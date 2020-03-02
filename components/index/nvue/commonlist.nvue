@@ -1,0 +1,45 @@
+<template>
+	<div>
+		<div class="w-100 row">
+			<block v-for="(item,index) in resdata" :key="index" >
+			<div class="col-6" style="padding-right: 2.5px;padding-left: 2.5px;" @click.stop="openDetail(item)">
+				<image :src="item.goods_front_image" style="width: 370px;height: 370px;" mode=""></image>
+				<text style="lines: 1;" class="font-md text-dark px-2 py-1">{{item.name}}</text>
+				<text class="px-2 font text-light-muted" style="lines: 1;">{{ item.goods_brief }}</text>
+				<div class="px-2 pt-1 row ">
+					<price>{{item.shop_price}}</price>
+					<text class="line-through text-light-muted ml-1" style="align-self:flex-end;">￥{{item.market_price}}</text>
+				</div>
+			</div>
+			</block>
+		</div>
+	</div>
+</template>
+
+<script>
+	import price from '@/components/index/nvue/price.nvue'
+	export default {
+		data() {
+			return {
+				
+			};
+		},
+		props:{
+			resdata:Array,
+		},
+		components:{
+			price
+		},
+		methods:{
+			openDetail(item){
+				console.log(item)
+				uni.navigateTo({
+					url:'/pages/detail/detail?detail='+item.id
+				})
+			}
+		}
+	}
+</script>
+
+<style src="@/common/zcm-main-nvue.css">
+</style>

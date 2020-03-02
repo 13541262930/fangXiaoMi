@@ -1,0 +1,14 @@
+{
+  "style": {
+    "navigationBarTitleText": "发票",
+    "navigationBarBackgroundColor": "#FD6801",
+    "navigationBarTextStyle": "white",
+    "app-plus": {
+      "bounce": "none"
+    }
+  },
+  "usingComponents": {
+    "card": "/components/common/card",
+    "zmradio-group": "/components/common/radio-group"
+  }
+}

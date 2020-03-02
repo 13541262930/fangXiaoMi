@@ -1,0 +1,46 @@
+<template>
+	<div>
+		<slider class="slider" interval="1000" auto-play="true">
+			<div class="frame" @click="openDetail(item.id)" v-for="(item,index) in resdata" :key="index"><image class="image" :src="item.image"></image></div>
+			<indicator class="indicator"></indicator>
+		</slider>
+	</div>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		},
+		props:{
+			resdata:Array,
+		},
+		methods:{
+			openDetail(id){
+				uni.navigateTo({
+					url:"/pages/detail/detail?detail="+id
+				})
+			}
+		}
+	}
+</script>
+
+<style scoped>
+.image,
+.slider {
+	width: 750px;
+	height: 300px;
+}
+.indicator {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 150px;
+	height: 80px;
+	item-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(0, 0, 0, 0);
+	item-selected-color: #ffffff;
+}
+</style>

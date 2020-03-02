@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "u-pare": "/components/uni-ui/uParse/src/wxParse"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/class/class",
+    "pages/cart/cart",
+    "pages/search/search",
+    "pages/search-list/search-list",
+    "pages/detail/detail",
+    "pages/detail-common/detail-common",
+    "pages/user-seet/user-seet",
+    "pages/user-userinfo/user-userinfo",
+    "pages/user-path-list/user-path-list",
+    "pages/user-path-edit/user-path-edit",
+    "pages/order/order",
+    "pages/order-confirm/order-confirm",
+    "pages/order-invoice/order-invoice",
+    "pages/login/login",
+    "pages/msg-list/msg-list",
+    "pages/msg-detail/msg-detail",
+    "pages/pay-methods/pay-methods",
+    "pages/pay-result/pay-result",
+    "pages/order-coupon/order-coupon",
+    "pages/order-detail/order-detail",
+    "pages/logistics-deatil/logistics-deatil",
+    "pages/after-sale/after-sale",
+    "pages/about/about",
+    "pages/personal/personal",
+    "pages/change-nickname/change-nickname",
+    "pages/change-gender/change-gender",
+    "pages/like-goods/like-goods",
+    "pages/phone/phone",
+    "pages/commodity-page/commodity-page",
+    "pages/members-center/members-center",
+    "pages/page-rules/page-rules",
+    "pages/achievement-wall/achievement-wall",
+    "pages/integral-mall/integral-mall",
+    "pages/integral-subsidiary/integral-subsidiary",
+    "pages/member-code/member-code",
+    "pages/indiana-activities/indiana-activities",
+    "pages/sign-in/sign-in",
+    "pages/indiana-detail/indiana-detail",
+    "pages/integral-exchange/integral-exchange",
+    "pages/integral-earn/integral-earn",
+    "pages/exchange-record/exchange-record",
+    "pages/receive-coupons/receive-coupons",
+    "pages/signInRules/signInRules",
+    "pages/smallPlaneMember/smallPlaneMember",
+    "pages/permissions-Earnings/permissions-Earnings"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小米商城",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#FD6801",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/indexseleted.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "分类",
+        "iconPath": "static/tabbar/class.png",
+        "selectedIconPath": "static/tabbar/classseleted.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tabbar/cart.png",
+        "selectedIconPath": "static/tabbar/cartseleted.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/myseleted.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {
+    "divder": "/components/common/divder",
+    "loading-plus": "/components/common/minxin/loading-plus"
+  },
+  "sitemapLocation": "sitemap.json"
+}

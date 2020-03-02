@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "物流信息",
+  "usingComponents": {
+    "time-line": "/components/uni-ui/timeline/timeline"
+  }
+}

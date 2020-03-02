@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "weixin-pare": "/components/uni-ui/uParse/src/wxParse"
+  }
+}

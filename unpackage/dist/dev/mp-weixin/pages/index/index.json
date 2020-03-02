@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "小米商城",
+  "usingComponents": {
+    "swiper-image": "/components/index/swiper-image",
+    "index-class": "/components/index/index-class",
+    "three-adv": "/components/index/three-adv",
+    "common-list": "/components/common/commonlist",
+    "sumadv": "/components/index/sumadv",
+    "commons": "/components/common/commons"
+  }
+}
